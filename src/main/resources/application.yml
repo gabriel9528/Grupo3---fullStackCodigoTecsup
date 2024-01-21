@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: dbAtlas
+      auto-index-creation: true   # Automatically create indexes
+      write-concern: NORMAL       # Write concern level (e.g., MAJORITY, NORMAL)
